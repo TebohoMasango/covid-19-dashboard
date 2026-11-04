@@ -1,7 +1,30 @@
-# COVID-19 Early Outbreak Dashboard
+# COVID-19 Early Outbreak Dashboard (Feb - Mar 2020)
 
-## Setup Instructions
+A responsive, single-page web dashboard built to analyze and visualize the early outbreak phase of COVID-19 (February to March 2020) using historical data from Johns Hopkins University.
 
-1. Clone this repository[cite: 3, 4].
-2. Open `index.html` in a modern browser or use the VS Code Live Server extension[cite: 2, 4].
-3. Open browser Developer Tools (`F12`) to inspect console logs[cite: 4].
+---
+
+## Features & Core Deliverables
+
+1. **Dynamic Country Selector:** Switch instantly between China, Italy, South Korea, United States, and South Africa, or view all countries aggregated.
+2. **Key Metric Summary Cards:** Real-time KPI summaries for Total Confirmed, Total Recovered, and Total Deaths.
+3. **Interactive Line Chart:** Built with Chart.js, rendering cumulative trends over time for confirmed cases, recoveries, and deaths.
+4. **Responsive Layout:** Designed with Tailwind CSS for seamless viewing across desktop and mobile screens.
+
+---
+
+## Project Tech Stack
+
+- **Frontend Structure:** HTML5
+- **Styling:** Tailwind CSS via CDN
+- **Charting Engine:** Chart.js via CDN
+- **Data Processing & Logic:** Vanilla JavaScript using ES6+ async/await
+- **Dataset:** covid-19.json as a Johns Hopkins University time-series extract
+
+---
+
+## Setup & Running Instructions
+
+1. Open the project folder inside Visual Studio Code.
+2. Right-click index.html and select Open with Live Server.
+3. Open your browser's Developer Tools (F12 or Inspect, then click the Console tab) to verify successful asynchronous data loading (COVID-19 Dataset Loaded Successfully).
